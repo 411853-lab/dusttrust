@@ -1,0 +1,71 @@
+{
+    "battle.sans.dialog.box.turn0" : "＊ <anim 1>パピルスは　我を見失っている。",
+    "battle.sans.dialog.fight.attempt" : "＊ <anim 1>他の方法を探す必要がある。",
+    "battle.sans.dialog.item.attempt" : "＊ <anim 1>アイテムがなかった。",
+	
+	
+    "battle.sans.dialog.try.talk1" : "<speed 0.05>＊ まつんだ　パピルス、^1&＊ こんなことを　する必要はない。",
+    "battle.sans.dialog.try.talk2" : "<speed 0.05>＊ 戦わなくていい。<wait 0.3>&＊ 何か別の方法があるはずだ！<function AAA><wait 2.44><danim><bomb>",
+    "battle.sans.dialog.try.talk3" : "<speed 0.045>お前は分かっていない。",
+    "battle.sans.dialog.try.talk4" : "<speed 0.045>これはやりたくて&やっているわけじゃない。<wait 0.3>&やらないと&いけないんだ。",
+    "battle.sans.dialog.try.talk5" : "<speed 0.045>...全てを終わらせる&ために。",
+
+    "battle.sans.papyrus.lament1" : "<pos 120 0>「何か別の方法があるはず」<wait 0.5>&<pos 252 0>だって？",
+    "battle.sans.papyrus.lament2" : "<pos 70 0>もしあるなら、<wait 0.5> そうしてるさ。",
+    "battle.sans.papyrus.lament3" : "<pos 10 0>だけどこれはお前が思っているより&<pos 115 0>単純じゃないんだ。",
+
+    "battle.sans.enemyspeech.turn.0" : "<speed 0.12>...<wait 0.6>&<speed 0.045>俺を見逃そうと&考えているのか？<pause><clear><sanshead RageNoEyes>どうやらお前は今から&起こることを&理解しなければ&ならないようだ。",
+    "battle.sans.enemyspeech.turn.1" : "<speed 0.045>俺はお前を&終わらせるしか&ないんだ。",
+
+    "battle.sans.papyrus.final1" : "<speed 0.05>パピルス、 <wait 0.3>お願いだからやめてよ。<wait 0.5>&こんなことしたくないよ。",
+    "battle.sans.papyrus.final2" : "<speed 0.05>何で殺そうとするんだ？<wait 0.5>&目的は何なんだ？",
+    "battle.sans.papyrus.final3" : "<speed 0.05>お前は何も知らなくていい。<wait 0.45>&ただ俺にこれを終えさせてくれ。",
+    "battle.sans.papyrus.final4" : "<speed 0.05><speed 0.05>すべてが終われば、<wait 0.5>何もかも元通りになる。",
+    "battle.sans.papyrus.final5" : "<speed 0.05>悪いけど、 <wait 0.3>お断りだね。",
+    "battle.sans.papyrus.final6" : "<speed 0.05>あいにく今日は死ぬ気分じゃないんだ。",
+	"battle.sans.papyrus.final7" : "<speed 0.05>...",
+    "battle.sans.papyrus.final8" : "<speed 0.05>ならもう、 <wait 0.3>他に方法はない。",
+    "battle.sans.papyrus.final9" : "<speed 0.05><anim 2>またな。",
+	
+	
+	
+    "text.asterisk" : "＊",
+
+
+    "battle.dialog.act.check" : "＊ 分析",
+    "battle.dialog.act.acttest" : "* Act test",
+    "battle.dialog.mercy.spare" : "＊ 見逃す",
+    "battle.dialog.mercy.flee" : "* Flee",
+
+    "battle.dialog.act.check.template" : "＊ <anim 1>% <wait 0.4>ATK % DEF %&<wait 0.6>",
+
+    "battle.sans.dialog.act.check.phase1" : "＊ <anim 1>彼を止めなければ。&<wait 0.6>＊ 方法を探せ。",
+    
+
+    "item.default.use.ateheal" : "* You ate the %.",
+    "item.default.use.hpheal" : "* You recovered % HP!",
+    "item.default.use.hpmax" : "* Your HP was maxed out.",
+
+    "item.pie.lname" : "Butterscotch Pie",
+    "item.pie.sname" : "Pie",
+    "item.pie.use" : "{item.default.use.ateheal %}",
+
+    "item.noodles.lname" : "Instant Noodles",
+    "item.noodles.sname" : "I.Noodles",
+    "item.noodles.use" : "* They're better dry.",
+
+    "item.steak.lname" : "Face Steak",
+    "item.steak.sname" : "Steak",
+    "item.steak.use" : "{item.default.use.ateheal %}",
+
+    "item.lhero.lname" : "Legendary Hero",
+    "item.lhero.sname" : "L. Hero",
+    "item.lhero.use" : "{item.default.use.ateheal %}^1&* ATTACK increased by 4!",
+
+    "item.snowpiece.lname" : "Snowman Piece",
+    "item.snowpiece.sname" : "SnowPiece",
+    "item.snowpiece.use" : "{item.default.use.ateheal %}",
+
+
+    "gameover.text" : "<spd 0.05>＊ サンズは死んだ。<pause><clear>＊ パピルスは人間が諦めるまで& 　虐殺を続けた。<pause><clear>＊ もう一度リセットするために。<pause><clear><spd 0.1>＊ ……<pause><clear><spd 0.05>＊ 同じ出来事が繰り返されて& 　しまうだろう。<pause><clear>＊ だが… <wait 0.5>&＊ 今回こそは、 何かが変わるのだろうか？<pause><clear>＊ 全ては貴方に委ねられている。<pause><clear>＊ 幸運を。<pause><clear><func GM_Text2>"
+}
