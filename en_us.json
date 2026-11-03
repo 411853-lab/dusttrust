@@ -1,0 +1,71 @@
+{
+    "battle.sans.dialog.box.turn0" : "* <anim 1>Papyrus has lost himself.",
+    "battle.sans.dialog.fight.attempt" : "* <anim 1>You must find another way.",
+    "battle.sans.dialog.item.attempt" : "* <anim 1>You have no item.",
+	
+	
+    "battle.sans.dialog.try.talk1" : "* papyrus wait, <wait 0.3>you don't have&  to do this.",
+    "battle.sans.dialog.try.talk2" : "* we don't have to fight.<wait 0.3>&* there must be another way!<function AAA><wait 1.825><danim><bomb>",
+    "battle.sans.dialog.try.talk3" : "YOU DON'T&UNDERSTAND.",
+    "battle.sans.dialog.try.talk4" : "IT'S NOT THAT I &WANT TO DO THIS,<wait 0.3>&IT'S THAT I HAVE TO.",
+    "battle.sans.dialog.try.talk5" : "...IT'S THEIR FAULT &IN THE END.",
+
+    "battle.sans.papyrus.lament1" : "''THERE MUST BE ANOTHER WAY'',<wait 0.5>&<pos 212 0>YOU SAY?",
+    "battle.sans.papyrus.lament2" : "IF THERE WERE, <wait 0.5>I WOULD.",
+    "battle.sans.papyrus.lament3" : "BUT IT'S NOT AS EASY AS&<pos 170 0>YOU THINK.",
+
+    "battle.sans.enemyspeech.turn.0" : "<speed 0.12>...<wait 0.6>&<speed 0.035>ARE YOU TRYING TO&SPARE ME?<pause><clear><sanshead RageNoEyes>YOU NEED TO&UNDERSTAND WHAT&IS ABOUT TO&HAPPEN.",
+    "battle.sans.enemyspeech.turn.1" : "I HAVE NO CHOICE&BUT TO END YOU.",
+
+    "battle.sans.papyrus.final1" : "papyrus, <wait 0.3>please come back to us.<wait 0.5>&i just don't want this.",
+    "battle.sans.papyrus.final2" : "why the killing?<wait 0.5>&what's your endgame here?",
+    "battle.sans.papyrus.final3" : "YOU DON'T NEED TO KNOW&ANYTHING,<wait 0.45><clear>JUST LET ME FINISH THE JOB.",
+    "battle.sans.papyrus.final4" : "WHEN THIS IS OVER,<wait 0.5>&EVERYTHING WILL MAKE SENSE.",
+    "battle.sans.papyrus.final5" : "yeah, <wait 0.3>i'm gonna take a hard pass.",
+    "battle.sans.papyrus.final6" : "i don't feel like dying today,<wait 0.3> bro.",
+	"battle.sans.papyrus.final7" : "...",
+    "battle.sans.papyrus.final8" : "BUT IN THE END,<wait 0.3>&IT HAS TO BE THIS WAY.",
+    "battle.sans.papyrus.final9" : "<anim 2>GOODBYE.",
+	
+	
+	
+    "text.asterisk" : "*",
+
+
+    "battle.dialog.act.check" : "* Check",
+    "battle.dialog.act.acttest" : "* Act test",
+    "battle.dialog.mercy.spare" : "* Spare",
+    "battle.dialog.mercy.flee" : "* Flee",
+
+    "battle.dialog.act.check.template" : "* <anim 1>% <wait 0.4>% ATK % DEF&<wait 0.6>",
+
+    "battle.sans.dialog.act.check.phase1" : "* <anim 1>You must stop him.&<wait 0.6>* Find a way.",
+    
+
+    "item.default.use.ateheal" : "* You ate the %.",
+    "item.default.use.hpheal" : "* You recovered % HP!",
+    "item.default.use.hpmax" : "* Your HP was maxed out.",
+
+    "item.pie.lname" : "Butterscotch Pie",
+    "item.pie.sname" : "Pie",
+    "item.pie.use" : "{item.default.use.ateheal %}",
+
+    "item.noodles.lname" : "Instant Noodles",
+    "item.noodles.sname" : "I.Noodles",
+    "item.noodles.use" : "* They're better dry.",
+
+    "item.steak.lname" : "Face Steak",
+    "item.steak.sname" : "Steak",
+    "item.steak.use" : "{item.default.use.ateheal %}",
+
+    "item.lhero.lname" : "Legendary Hero",
+    "item.lhero.sname" : "L. Hero",
+    "item.lhero.use" : "{item.default.use.ateheal %}^1&* ATTACK increased by 4!",
+
+    "item.snowpiece.lname" : "Snowman Piece",
+    "item.snowpiece.sname" : "SnowPiece",
+    "item.snowpiece.use" : "{item.default.use.ateheal %}",
+
+
+    "gameover.text" : "<spd 0.05>* Sans has died.<pause><clear>* Papyrus continued its genocide& 　until humans ended their lives.<pause><clear>* To reset once again.<pause><clear><spd 0.1>* ...<pause><clear><spd 0.05>* The same events are about& 　to be repeated.<pause><clear>* But... <wait 0.5>&* Will something change this time?<pause><clear>* The decision is left to you.<pause><clear>* Good luck.<pause><clear><func GM_Text2>"
+}
